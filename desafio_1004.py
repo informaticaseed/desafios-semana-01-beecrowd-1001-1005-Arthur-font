@@ -15,3 +15,19 @@ caso contrário seu programa apresentará a mensagem: "Presentation Error".
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1004
 
 # Escreva sua solução abaixo
+
+# Lê os dois valores inteiros (um por linha)
+a = int(input())
+b = int(input())
+
+# Calcula o produto e armazena na variável PROD
+# O asterisco (*) é o operador de multiplicação em Python
+PROD = a * b
+
+# Exibe o resultado com a formatação exigida
+print(f"PROD = {PROD}")
+
+
+
+
+
