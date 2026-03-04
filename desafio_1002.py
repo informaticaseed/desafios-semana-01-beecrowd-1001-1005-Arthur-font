@@ -18,3 +18,25 @@ exemplo abaixo, com 4 casas após o ponto decimal. Utilize variáveis de dupla p
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1002
 
 # Escreva sua solução abaixo
+
+# Define o valor de pi conforme o enunciado
+n = 3.14159
+
+# Lê o raio (ponto flutuante de dupla precisão)
+raio = float(input())
+
+# Calcula a área: n * raio^2
+area = n * (raio ** 2)
+
+# Imprime o resultado formatado com 4 casas decimais
+# O ":.4f" indica ao Python que queremos 4 casas após o ponto
+print(f"A={area:.4f}")
+
+
+
+
+
+
+
+
+
