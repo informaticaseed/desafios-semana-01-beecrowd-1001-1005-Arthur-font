@@ -12,3 +12,18 @@ você receberá "Presentation Error".
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1001
 
 # Escreva sua solução abaixo
+
+# Lê os dois valores de entrada (um em cada linha)
+a = int(input())
+b = int(input())
+
+# Realiza a soma
+x = a + b
+
+# Imprime o resultado seguindo exatamente o formato pedido
+# O 'f-string' garante que o "X" seja maiúsculo e haja espaços ao redor do "="
+print(f"X = {x}")
+
+
+
+
